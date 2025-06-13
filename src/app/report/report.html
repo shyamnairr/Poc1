@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Sales Report - POC1</h1>
+
+  <div class="report-layout">
+    <!-- Table -->
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Sales</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of chartData">
+          <td>{{ item.product }}</td>
+          <td>{{ item.sales }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Bar Chart -->
+    <div class="chart-container">
+      <canvas id="barChart"></canvas>
+    </div>
+  </div>
+</div>
