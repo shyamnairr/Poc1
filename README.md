@@ -1,59 +1,27 @@
-# POC1
+# POC1 - Sales Report with Angular Bar Chart and Table
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+This is my first POC for the internship project.
 
-## Development server
+##  Tech Stack
+- Angular (Standalone)
+- Chart.js (for Bar Chart)
+- HTML/CSS
 
-To start a local development server, run:
+##  Features
+- Displays a simple sales summary in table format
+- Displays corresponding Bar Chart using Chart.js
+- Data is currently hardcoded (stub data for demo purpose)
 
-```bash
-ng serve
-```
+##  Folder Structure
+- src/app/report → contains the full component code
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+##  Notes
+- This POC was built purely for UI visualization based on stub data
+- Once APIs are available, actual data can be integrated easily
 
-## Code scaffolding
+##  Outcome
+- Successfully demonstrates Angular component creation, data binding, chart rendering, table display, and styling.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Built by: Shyam Nair
